@@ -1,0 +1,49 @@
+/* Base styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #d4fc79, #96e6a1);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #333;
+}
+
+/* Main content container */
+main {
+  text-align: center;
+  padding: 20px;
+  max-width: 600px;
+}
+
+/* Headline */
+h1 {
+  font-size: 2.5rem;
+  color: #2e7d32;
+  margin-bottom: 20px;
+}
+
+/* Paragraph */
+p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Button */
+button {
+  margin-top: 25px;
+  padding: 12px 25px;
+  font-size: 1rem;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1b5e20;
+}
